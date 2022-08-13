@@ -5,8 +5,26 @@
 			"referenceName": "AzureSqlDatabase1",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"Tabla": {
+				"type": "string"
+			},
+			"Esquema": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "AzureSqlTable",
-		"schema": []
+		"schema": [],
+		"typeProperties": {
+			"schema": {
+				"value": "@dataset().Esquema",
+				"type": "Expression"
+			},
+			"table": {
+				"value": "@dataset().Tabla",
+				"type": "Expression"
+			}
+		}
 	}
 }

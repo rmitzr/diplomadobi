@@ -1,5 +1,5 @@
 {
-	"name": "ParquetProduct",
+	"name": "ConjuntoDeDatos",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage1",

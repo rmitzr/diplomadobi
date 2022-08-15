@@ -1,0 +1,9 @@
+{
+	"name": "ADF-ExamenMitz",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "22cc23a9-e932-4e34-bcbd-0334685dcd54",
+		"tenantId": "4f2357e8-405e-4585-aff8-4d8c5025928a"
+	}
+}
